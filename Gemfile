@@ -29,6 +29,12 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# Support having users
+gem 'devise'
+
+# Nicer looking forms
+gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
